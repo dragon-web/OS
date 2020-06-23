@@ -1,0 +1,2 @@
+This respository is aim to practice OS.
+
