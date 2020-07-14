@@ -18,7 +18,9 @@ int main()
 {
   pthread_t tid;
   pthread_create(&tid,NULL,thread_run,(void*)"thread one");
-  while(1)
+
+  pthread_create(&tid,NULL,thread_run,(void*)"thread one");
+ while(1)
   {
     printf("main thread ...\n");
     sleep(3);
