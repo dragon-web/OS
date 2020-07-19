@@ -42,6 +42,8 @@ void put(struct prodcons *prod,int data)
   pthread_mutex_unlock(&prod->lock);
 }
 
+int get()
+
 
 
 int main()
